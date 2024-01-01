@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>572</width>
-    <height>599</height>
+    <width>771</width>
+    <height>659</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0">
+   <item row="0" column="1">
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout">
@@ -136,6 +136,58 @@
       </widget>
      </item>
     </layout>
+   </item>
+   <item row="0" column="0">
+    <widget class="QTreeWidget" name="tree">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>0</height>
+      </size>
+     </property>
+     <attribute name="headerVisible">
+      <bool>false</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>Favorites</string>
+      </property>
+      <property name="icon">
+       <iconset theme="list-add"/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>HDRIs</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Materials</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Models</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Textures</string>
+      </property>
+     </item>
+    </widget>
    </item>
   </layout>
  </widget>
